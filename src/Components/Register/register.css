@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', Arial, sans-serif;
+background: linear-gradient(
+to bottom right,
+#2d415a,
+#46617f
+);
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+overflow: hidden;
+}
+
+.register-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+}
+
+.register-card {
+width: 400px;
+padding: 2.5rem;
+background-color: #e9e9e9;
+border-radius: 24px;
+text-align: left;
+position: relative;
+font-family: 'Montserrat', Arial, sans-serif;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.logoregister-container {
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.logoregister {
+width: 115px;
+height: 100px;
+margin-bottom: 10px;
+margin-left: 12px;
+}
+
+.input-group {
+margin-bottom: 1.5rem;
+}
+
+.input-group label {
+display: block;
+margin-bottom: 0.5rem;
+font-size: 1rem;
+color: #4a6682;
+font-weight: 600;
+}
+
+.input-group input {
+width: calc(100% - 2rem);
+padding: 1rem;
+border-radius: 16px;
+border: 1px solid #bec4cc;
+background: #C0C0C0;
+color: #1e293b;
+outline: none;
+font-size: 1rem;
+transition: all 0.3s;
+font-family: 'Montserrat', Arial, sans-serif;
+font-weight: 500; /* Regular */
+}
+
+.input-group input:focus {
+border-color: #C0C0C0;
+background: #d3d3d3;
+}
+
+.password-field {
+position: relative;
+width: 100%;
+}
+
+.toggle-password {
+position: absolute;
+right: 10px;
+top: 50%;
+transform: translateY(-50%);
+border: none;
+background: none;
+cursor: pointer;
+padding: 0;
+color: #4a6682;
+}
+
+.otp-container {
+display: flex;
+gap: 10px;
+margin-bottom: 1.5rem;
+}
+
+.send-otp-button {
+background-color: #548CA8;
+color: white;
+border: none;
+border-radius: 24px;
+padding: 0.8rem 1.2rem;
+font-size: 0.9rem;
+font-weight: 600;
+cursor: pointer;
+transition: background-color 0.3s;
+font-family: 'Montserrat', Arial, sans-serif;
+white-space: nowrap;
+}
+
+.send-otp-button:hover {
+background-color: #334257;
+}
+
+.otp-input {
+width: calc(100% - 2rem);
+padding: 1rem;
+border-radius: 16px;
+border: 1px solid #bec4cc;
+background: #C0C0C0;
+color: #1e293b;
+outline: none;
+font-size: 1rem;
+transition: all 0.3s;
+font-family: 'Montserrat', Arial, sans-serif;
+font-weight: 500; /* Regular */
+}
+
+.otp-input:focus {
+border-color: #C0C0C0;
+background: #d3d3d3;
+}
+
+.login-link-container {
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.login-link {
+color: #4a6682;
+text-decoration: none;
+font-size: 0.9rem;
+font-weight: 500;
+}
+
+.register-button {
+width: 100%;
+background-color: #548CA8;
+color: white;
+border: none;
+padding: 1rem;
+border-radius: 16px;
+font-size: 1rem;
+font-weight: 600;
+cursor: pointer;
+transition: background-color 0.3s;
+font-family: 'Montserrat', Arial, sans-serif;
+margin-top: 0.5rem;
+}
+
+.register-button:hover {
+background-color: #334257;
+}
+
+@media screen and (max-width: 480px) {
+.login-card {
+width: 90%;
+padding: 1.5rem;
+}
+
+.input-group input,
+.otp-input {
+width: calc(100% - 2rem);
+}
+}
