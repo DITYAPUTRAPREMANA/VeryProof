@@ -59,14 +59,13 @@ const Hero = ({ heroData, setHeroCount, heroCount, setplayStatus, playStatus }) 
       
       {/* Button Let's Explore dengan hover effect */}
       <div 
-        className="relative flex items-center gap-4 md:gap-[10px] w-fit mt-5 px-6 md:px-[30px] py-4 md:py-[10px] 
+        className="relative flex items-center gap-4 md:gap-[10px] w-fit mt-5 px-6 md:px-[30 px] py-4 md:py-[7px] 
                    rounded-full bg-white cursor-pointer 
                    transition-all duration-300 ease-in-out 
                    hover:text-blue-900 hover:translate-x-2 hover:shadow-lg
                    active:transform active:translate-y-1
                    z-[2]"
-        onClick={() => setplayStatus(!playStatus)}
-      >
+        onClick={() => setplayStatus(!playStatus)}>
         <p className="text-lg md:text-xl font-medium">Let's Explore</p>
         <img 
           src={arrow} 
