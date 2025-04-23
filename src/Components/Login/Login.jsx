@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./login.css";
-import logo from "../Assets/logo.png";
+import logo from "../assets/logo.png";
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -12,14 +12,16 @@ const Login = () => {
   return (
     <div className="login-container">
       <div className="login-card">
-        <img src={logo} alt="VeryProof Logo" className="logo" />
-        
-        <div className="input-group">
+        <div className="logo-container">
+          <img src={logo} alt="VeryProof logo" className="logologin" />
+        </div>
+
+        <div className="input-group-login">
           <label>Email</label>
           <input type="email" placeholder="Enter your email" />
         </div>
 
-        <div className="input-group">
+        <div className="input-group-login">
           <label>Password</label>
           <div className="password-field">
             <input 
@@ -31,14 +33,15 @@ const Login = () => {
               className="toggle-password"
               onClick={togglePassword}
             >
-              <i className={showPassword ? "fas fa-eye-slash" : "fas fa-eye"}></i>
+              <i className="fa fa-eye-slash"></i>
             </button>
           </div>
         </div>
 
-        <div className="footer">
-          <a href="/" className="register-link">Register?</a>
+        <div className="register-link-container">
+          <a href="/register" className="register-link">Register?</a>
         </div>
+
         <button className="login-button">Login</button>
       </div>
     </div>

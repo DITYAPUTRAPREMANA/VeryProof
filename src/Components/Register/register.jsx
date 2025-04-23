@@ -22,16 +22,16 @@ const Register = () => {
     <div className="login-container">
       <div className="login-card">
         <div className="logo-container">
-          <img src={logo} alt="VeryProof Logo" className="logo" />
+          <img src={logo} alt="VeryProof Logo" className="logoregister" />
         </div>
         
-        <div className="input-group">
+        <div className="input-group-login">
           <label>Email</label>
           <input type="email" placeholder="Enter Your Email" />
         </div>
 
 
-        <div className="input-group">
+        <div className="input-group-register">
           <label>Password</label>
           <div className="password-field">
             <input 
@@ -49,7 +49,7 @@ const Register = () => {
         </div>
 
 
-        <div className="input-group">
+        <div className="input-group-register">
           <label>Confirm Password</label>
           <div className="password-field">
             <input 
@@ -80,7 +80,7 @@ const Register = () => {
 
 
         <div className="login-link-container">
-          <a href="/" className="login-link">Already have an account? Login</a>
+          <a href="/login" className="login-link">Already have an account? Login</a>
         </div>
         
         <button className="register-button">Register</button>
