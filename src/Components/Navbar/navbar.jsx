@@ -25,7 +25,7 @@ const Navbar = () => {
             </li>
             <li>
               <a 
-                href="/about" 
+                a href="/about" 
                 className="text-white font-semibold text-lg hover:text-[#1a3c5b] transition-colors duration-300"
               >
                 About
@@ -45,9 +45,9 @@ const Navbar = () => {
           <div className="flex items-center space-x-4">
             <a
               href="/login"
-              className="px-4 py-2 text-[#548CA8] border border-[#548CA8] rounded-full 
+              className="px-4 py-2 text-[#FFFFFF] border border-[#548CA8] rounded-full 
                        font-semibold text-base sm:text-lg transition-all duration-300
-                       hover:bg-[#476072]/10"
+                       hover:bg-[#FFFFFF]/10"
             >
               Login
             </a>
