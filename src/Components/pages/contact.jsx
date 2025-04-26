@@ -15,7 +15,6 @@ const Contact = () => {
 
           {/* Feature Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-15 max-w-4xl mx-auto">
-            {/* Authenticity Card */}
             <div className="bg-gradient-to-b from-gray-100 to-gray-200 rounded-2xl p-8 text-center 
                           transform transition-all duration-300 hover:scale-105 cursor-pointer">
               <div className="w-16 h-16 mx-auto mb-6 bg-slate-600 rounded-full flex items-center justify-center">
@@ -32,7 +31,6 @@ const Contact = () => {
               </button>
             </div>
 
-            {/* Accuracy Card */}
             <div className="bg-gradient-to-b from-gray-100 to-gray-200 rounded-2xl p-8 text-center 
                           transform transition-all duration-300 hover:scale-105 cursor-pointer">
               <div className="w-16 h-16 mx-auto mb-6 bg-slate-600 rounded-full flex items-center justify-center">

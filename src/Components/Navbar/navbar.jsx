@@ -17,7 +17,7 @@ const Navbar = () => {
           <ul className="hidden md:flex items-center justify-center absolute left-1/2 -translate-x-1/2 space-x-8">
             <li>
               <a 
-                href="/" 
+                href={localStorage.getItem('token') ? "/homepage" : "/login"} 
                 className="text-white font-semibold text-lg hover:text-[#1a3c5b] transition-colors duration-300"
               >
                 Home
