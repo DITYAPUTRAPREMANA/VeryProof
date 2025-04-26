@@ -65,7 +65,7 @@ const Hero = ({ heroData, setHeroCount, heroCount, setplayStatus, playStatus }) 
                    hover:text-blue-900 hover:translate-x-2 hover:shadow-lg
                    active:transform active:translate-y-1
                    z-[2]"
-        onClick={() => setplayStatus(!playStatus)}>
+        onClick={() => window.location.href = '/login'}>
         <p className="text-lg md:text-xl font-medium">Let's Explore</p>
         <img 
           src={arrow} 

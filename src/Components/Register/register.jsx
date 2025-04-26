@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./register.css";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/logoo.png";
 
 
 const Register = () => {
