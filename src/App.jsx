@@ -6,6 +6,7 @@ import About from './Components/pages/about';
 import Contact from './Components/pages/contact';
 import Homepage from './Components/pages/homepage';
 import Qrcode from './Components/pages/upload';
+import Verify from './Components/pages/verify';
 
 
 
@@ -21,6 +22,7 @@ const App = () => {
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/home' element={<Homepage/>}/>
       <Route path='/upload' element={<Qrcode/>}/>
+      <Route path='/verify' element={<Verify/>}/>
     </Routes>
   )
 }
