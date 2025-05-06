@@ -8,11 +8,13 @@ import verify from "../assets/verify.png";
 
 const FeatureCards = () => {
   return (
+    
     <div className="flex justify-center items-center min-h-[100vh] w-full font-montserrat">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20 max-w-4xl mx-auto">
         <div
           className="bg-gradient-to-b from-gray-100 to-gray-200 rounded-2xl text-center transform transition-all duration-300 hover:scale-105 cursor-pointer"
           style={{ width: 350, padding: 40 }}
+          onClick={() => window.location.href = '/upload'}
         >
           <div className="w-16 h-16 mx-auto mb-6 bg-slate-600 rounded-full flex items-center justify-center">
             <img src={upload} alt="Upload Logo" className="w-20 h-auto text-white"/>
@@ -30,6 +32,7 @@ const FeatureCards = () => {
         <div
           className="bg-gradient-to-b from-gray-100 to-gray-200 rounded-2xl text-center transform transition-all duration-300 hover:scale-105 cursor-pointer"
           style={{ width: 350, padding: 40 }}
+          onClick={() => window.location.href = '/verify'}
         >
           <div className="w-16 h-16 mx-auto mb-6 bg-slate-600 rounded-full flex items-center justify-center">
             <img src={verify} alt="Verify Logo" className="w-20 h-auto text-white"/>
