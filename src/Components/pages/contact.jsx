@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "../Navbar/navbar";
-import accuracy from '../assets/telpon.png'
-import Authen from '../assets/email.png'
+import accuracy from '../Assets/telpon.png'
+import Authen from '../Assets/email.png'
 import FadeInOnView from '../fadeinonview'; // Import FadeInOnView component
 
 const Contact = () => {

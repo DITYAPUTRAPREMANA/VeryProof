@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation } from "framer-motion"; // eslint-disable-line no-unused-vars
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import arrow from '../assets/arrow_icon.png';
+import arrow from '../Assets/arrow.png';
 
-const Hero = ({ heroData, setHeroCount, heroCount, setplayStatus, playStatus }) => {
+const Hero = ({ heroData }) => {
   const { text1, text2, text3 } = heroData || {};
   const [displayText, setDisplayText] = useState('');
   const [currentTextIndex, setCurrentTextIndex] = useState(0);

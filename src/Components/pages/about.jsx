@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from "../Navbar/navbar";
-import accuracy from '../assets/accuracy.png';
-import Simpel from '../assets/simpel.png';
-import Authen from '../assets/authen.png';
+import accuracy from '../Assets/accuracy.png';
+import Simpel from '../Assets/simpel.png';
+import Authen from '../Assets/authen.png';
 import FadeInOnView from '../fadeinonview'; 
 
 const About = () => {

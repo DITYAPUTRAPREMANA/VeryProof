@@ -1,6 +1,6 @@
-import video2 from '../assets/video2.mp4'
+import video2 from '../Assets/video2.mp4'
 
-const Background = (playStatus, heroCount) => {
+const Background = () => {
     return (
         <video 
             className="fixed top-0 left-0 w-full h-screen object-cover -z-10"

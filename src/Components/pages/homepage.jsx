@@ -3,8 +3,8 @@ import logo from "../Assets/logo horizontal.png";
 import dashboard from "../Assets/dashboard.png";
 import logout from "../Assets/logout.png";
 import profile from "../Assets/profile.png";
-import upload from "../assets/upload.png";
-import verify from "../assets/verify.png";
+import upload from "../Assets/upload.png";
+import verify from "../Assets/verify.png";
 
 const FeatureCards = () => {
   return (
